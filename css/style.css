@@ -123,7 +123,7 @@ ul {
      content: "";
      display: block;
      width: 0;
-     height: 1px;
+     height: 4px;
      background-color: currentColor;
     text-decoration: underline;
  }
@@ -156,7 +156,7 @@ ul {
 .hero {
 padding: 188px 0;
 background: #2E2F42;
-background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/people-office\ 1.jpg);
+background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
 max-width: 1440px;
 background-repeat: no-repeat;
 background-position: center;
@@ -449,8 +449,9 @@ fill: #F4F4FD;
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        display: inline-block;
-        margin-bottom: 16px;
+        display: flex;
+        align-items: baseline;
+        margin-bottom: 17.5px;
 }
 
 .footer-logo-studio {
@@ -481,7 +482,6 @@ fill: #F4F4FD;
 .social-links-footer {
     display: flex;
     gap: 16px;
-    align-items: baseline
 }
 
 .icons-footer {
