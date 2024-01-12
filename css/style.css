@@ -450,7 +450,6 @@ fill: #F4F4FD;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         display: flex;
-        align-items: baseline;
         margin-bottom: 17.5px;
 }
 
@@ -506,6 +505,7 @@ fill: #F4F4FD;
 
 .footer-container {
  display: flex;
+align-items: baseline
 }
 
 .left-column {
