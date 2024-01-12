@@ -505,7 +505,7 @@ fill: #F4F4FD;
 
 .footer-container {
  display: flex;
-align-items: baseline
+align-items: baseline;
 }
 
 .left-column {
